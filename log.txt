@@ -1,0 +1,15 @@
+18/1/09: Started project. Wrote simple class "board" with CLI, set, display, and clear functions all with sanitized inputs. Wrote basic man page.
+
+19/1/09: Improved error report masking, improved manual page.
+
+20/1/09: Added 'playRandomToken' and 'bRotate' functions. Added a layout section to manual page.
+
+21/1/09: Added random token value and the option to execute multiple iterations with a single command to 'playrand'. Changed 'bDisplay' to use interpolative syntax (%s).
+
+22/1/09: Added 'startGame' and 'playHuman' functions. Wrote most of 'checkWin' function, bugs still to be fixed. Created 'letterValue' and implemented it in 'getLetter' for clearer code.
+
+24/1/09: Changed 'playRandomToken' to 'setRandomToken', created 'playRandom' which should be used during games.
+
+25/1/09: Added 'playComputer' function structure. Updated CLI with the latest functions.
+
+26/1/09: Added 'checkWin' function. possibilities 
